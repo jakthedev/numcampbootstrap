@@ -31,7 +31,9 @@
                 </div>
                 <form id="reserveForm">
                     <div class="col mt-4">
-                        <a class="btn btn-primary py-2" href="#inlineFormCustomSelectPref" role="button">Reserve Campsite</a>
+                        <a class="btn btn-primary py-2" href="#inlineFormCustomSelectPref" role="button" data-html="true" data-toggle="tooltip" 
+                        data-placement="bottom" title="or call us at 
+                        <br /><strong>1-206-555-1234 </strong>">Reserve Campsite</a>
                 </form> 
                 </div>
             </div>
@@ -169,6 +171,12 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script> 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
 
 </body>
 
