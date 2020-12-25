@@ -1,9 +1,11 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    background-color: aquamarine;
+    font-size: large;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: fantasy, cursive;
 }
 
 h2 {
@@ -12,11 +14,13 @@ h2 {
 
 header h2 {
     color: #CEC8FF;
+     
 }
 
 .site-footer {
     background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+    padding: 20px 0; 
+    border-style: solid;
 }
 
 .jumbotron {
@@ -53,13 +57,22 @@ header h2 {
     background-color: #901CAD;
 } 
 
-/* .card-header {
-    background-color: #4cb2c8; 
+.card-header {
+    background-color: #42880081; 
+    border: black 5px solid; 
+    border-spacing: 8pt; 
     
-}  */
+}  
+
+.text-thumbnail {
+    text-emphasis-color: ;
+}
+
 
 .btn-primary {
     background-color: #4cb2c8;
+    border-style: initial;
+    border: 5px solid
 
 }
 
@@ -67,4 +80,18 @@ header h2 {
     border: 3px solid #3046C5; 
     border-top: none; 
     padding: 10px;
+} 
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: 35px solid #5637dd; 
+    border-style: ridge;  
+}
+
+.img-thumbnail {
+    border: 23px solid #3046C5; 
+    border-style: double;
 }
