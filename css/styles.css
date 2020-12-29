@@ -62,12 +62,7 @@ header h2 {
     border: black 5px solid; 
     border-spacing: 8pt; 
     
-}  
-
-.text-thumbnail {
-    text-emphasis-color: ;
-}
-
+} 
 
 .btn-primary {
     background-color: #4cb2c8;
@@ -89,6 +84,13 @@ header h2 {
 .carousel {
     border: 35px solid #5637dd; 
     border-style: ridge;  
+}
+
+#carouselButton {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;  
+    z-index: 100; 
 }
 
 .img-thumbnail {
