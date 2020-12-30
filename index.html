@@ -239,12 +239,8 @@
                         <span class="carousel-control-next-icon"></span> 
                         <span class="sr-only">Next</span>
                         </a>
-                        <div class="btn-group" id="carouselPause"> 
-                            <button class="btn btn-danger btn-sm" id="carouselPause">
+                            <button class="btn btn-danger btn-sm" id="carouselButton">
                                 <i class="fa fa-pause"></i>
-                            </button>
-                            <button class="btn btn-danger btn-sm" id="carouselPlay">
-                                <i class="fa fa-play"></i>
                             </button>
                         </div>
                     </div>
@@ -377,20 +373,33 @@
     })
     </script> -->
 
-    <script>
+    // so we can still access the js in the other file
+    <script src="js/scripts.js">
         // This is the longer version. 
         // $(document).ready(function() {
 
         // });
-        $(function() {
-            $(".carousel").carousel( { interval: 2000 } ); 
-            $("#carouselPause").click(function(){
-                $(".carousel").carousel("pause"); 
-            });
-            $("#carouselPlay").click(function(){
-                $(".carousel").carousel("cycle");
-            });
-        });
+        // $(function() {
+        //     $(".carousel").carousel( { interval: 2000 } ); 
+        //     $("#carouselButton").click(function(){
+        //         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
+        //             $(".carsousel").carousel("pause"); 
+        //             $("#carouselButton").childern("i").removeClass("fa-pause"); 
+        //             $("#carouselButton").childern("i").addClass("fa-play"); 
+
+        //         } else {
+        //             $(".carsousel").carousel("cycle"); 
+        //             $("#carouselButton").childern("i").removeClass("fa-play"); 
+        //             $("#carouselButton").childern("i").addClass("fa-pause"); 
+        //         }
+        //     });
+
+
+
+            // $("#carouselPlay").click(function(){
+            //     $(".carousel").carousel("cycle");
+            // });
+        // });
         // This uses a jquery method called click so anytime that anyone clicks on it  
         // The ID carousel pause will run $("#carouselPause").click(function(){
                                             //$(".carousel").carousel("pause");
