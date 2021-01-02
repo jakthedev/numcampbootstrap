@@ -1,99 +1,85 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-    background-color: aquamarine;
-    font-size: large;
-}
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: aquamarine;
+  font-size: large; }
 
 h1, h2, h3 {
-    font-family: fantasy, cursive;
-}
+  font-family: fantasy, cursive; }
 
 h2 {
-    color: #3046C5;
-}
+  color: #3046C5; }
 
 header h2 {
-    color: #CEC8FF;
-     
-}
+  color: #CEC8FF; }
 
 .site-footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0; 
-    border-style: solid;
-}
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+  border-style: solid; }
 
 .jumbotron {
-    margin: 0; 
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+  color: white; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-} 
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
 .onmissionfirstpadding {
-    padding: 50px 0px 0px ;
-}
+  padding: 50px 0px 0px; }
 
 .ourmissionPpadding {
-    padding: 0px 0px 150px; 
-    min-height:200px;
-} 
+  padding: 0px 0px 150px;
+  min-height: 200px; }
 
 .aboutuspadding {
-    padding: 1em;
-} 
+  padding: 1em; }
 
 .lastcppadding {
-    padding: 0px 0px 100px;
-} 
+  padding: 0px 0px 100px; }
 
 .navbar {
-    background-color: #901CAD;
-} 
+  background-color: #901CAD; }
 
 .card-header {
-    background-color: #42880081; 
-    border: black 5px solid; 
-    border-spacing: 8pt; 
-    
-} 
+  background-color: #42880081;
+  border: black 5px solid;
+  border-spacing: 8pt; }
 
 .btn-primary {
-    background-color: #4cb2c8;
-    border-style: initial;
-    border: 5px solid
-
-}
+  background-color: #4cb2c8;
+  border-style: initial;
+  border: 5px solid; }
 
 .tab-content {
-    border: 3px solid #3046C5; 
-    border-top: none; 
-    padding: 10px;
-} 
+  border: 3px solid #3046C5;
+  border-top: none;
+  padding: 10px; }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: 35px solid #5637dd; 
-    border-style: ridge;  
-}
+  border: 35px solid #5637dd;
+  border-style: ridge; }
 
 #carouselButton {
-    position: absolute; 
-    right: 0; 
-    bottom: 0;  
-    z-index: 100; 
-}
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
 
 .img-thumbnail {
-    border: 23px solid #3046C5; 
-    border-style: double;
-}
+  border: 23px solid #3046C5;
+  border-style: double; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #7d17b8;
+  color: white; }

@@ -13,3 +13,22 @@ $(function() {
         }
     });
 });
+
+$(function () {
+        
+    $("#reserveButton").on("click", () => {
+        $("#reserveModal").modal("show");
+    });
+    });
+
+
+    $(function () {
+            
+        $("#loginButton").on("click", () => {
+            $("#loginModal").modal("show");
+        });
+        
+        });
+
+
+

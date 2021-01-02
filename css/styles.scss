@@ -1,4 +1,5 @@
-$color-teal: #17A2B8;
+$color-teal: #17A2B8; 
+$color-mid: #7d17b8;
 
 
 
@@ -14,18 +15,6 @@ h1, h2, h3 {
 
 h2 {
     color: #3046C5;
-}
-
-.reserveModal {
-    modal-header {
-        color: $color-teal;
-    }
-}
-
-.loginModal {
-    modal-header {
-        color: $color-teal;
-    }
 }
 
 header h2 {
@@ -112,4 +101,18 @@ header h2 {
 .img-thumbnail {
     border: 23px solid #3046C5; 
     border-style: double;
+}
+
+#reserveModal {
+    .modal-header {
+        background-color: $color-teal;
+        color: white;
+    }
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
 }

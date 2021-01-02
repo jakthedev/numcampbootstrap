@@ -9,12 +9,6 @@ h1, h2, h3 {
 h2 {
   color: #3046C5; }
 
-.reserveModal modal-header {
-  color: #17A2B8; }
-
-.loginModal modal-header {
-  color: #17A2B8; }
-
 header h2 {
   color: #CEC8FF; }
 
@@ -81,3 +75,11 @@ header h2 {
 .img-thumbnail {
   border: 23px solid #3046C5;
   border-style: double; }
+
+#reserveModal modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+.loginModal modal-header {
+  background-color: #7d17b8;
+  color: white; }
