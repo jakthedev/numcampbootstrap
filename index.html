@@ -402,6 +402,26 @@
                             //$(".carousel").carousel("cycle"); 
         // The click method we get from jquery itself.
 
+            $(function () {
+            // show banana
+            $("#reserveModal").on("click", () => {
+                $("#reverseModal").collapse("show");
+            });
+            // hide banana
+            $("#reserveModal").on("click", () => {
+                $("#reserveModal").collapse("hide");
+            });
+
+            $(function () {
+            // show banana
+            $("#loginModal").on("click", () => {
+                $("#loginModal").collapse("show");
+            });
+            // hide banana
+            $("#loginModal").on("click", () => {
+                $("#loginModal").collapse("hide");
+            });
+
     </script>
 
      <!-- build:js js/main.js -->

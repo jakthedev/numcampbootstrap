@@ -1,3 +1,7 @@
+$color-teal: #17A2B8;
+
+
+
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     background-color: aquamarine;
@@ -10,6 +14,18 @@ h1, h2, h3 {
 
 h2 {
     color: #3046C5;
+}
+
+.reserveModal {
+    modal-header {
+        color: $color-teal;
+    }
+}
+
+.loginModal {
+    modal-header {
+        color: $color-teal;
+    }
 }
 
 header h2 {
